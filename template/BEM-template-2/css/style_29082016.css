@@ -1,0 +1,181 @@
+*, *:before, *:after 		{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.webinar_template *  		{ position: relative;}
+.divider 					{ width: 50%; height: 1px; margin-top: 10px; margin-bottom: 10px; background: #1f1f1f; margin: 0 auto; opacity: 0.2;}
+.container					{ width: 100%; padding:0; }
+.clear						{ clear: both; }
+.inline_block				{ display: inline-block;}
+
+.template					{ padding: 0; font-family: 'Open Sans', sans-serif; color: #222; }
+.inner						{ margin: 0 auto; width: 100%; padding: 0 25px; max-width: 1200px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; overflow: hidden; }
+.image_wrapper img 			{ max-width: 100%;}
+.webinar_template h1 		{ font-family: 'Source Sans Pro', sans-serif;}
+.webinar_template h2 		{ color: #495568; font-family: 'Source Sans Pro', sans-serif; font-size: 40px; font-weight: 300;}
+.webinar_template p 		{ color: #747474; font-size: 16px;}
+.webinar_template .btn_green{ background: #04ad6a; padding: 20px 60px; font-size: 16px; text-transform: uppercase; color: #fff; display: inline-block; text-decoration: none; -webkit-border-radius: 2px; border-radius: 2px;}
+.webinar_template .btn_green:hover 	{ color: #fff; background: #069c60; text-decoration: none;} 
+.btn_wrapper 				{ text-align: center;}
+.webinar_template section 	{ padding: 60px 0;}
+.gray 						{ margin: 30px auto 30px; padding: 40px 0; background: #f4f6f8;}
+.center 					{ text-align: center;}
+.margin_bottom				{ margin-bottom: 40px;}
+
+/*--- mid_banner standard styling ---*/
+.mid_banner					{ width: 100%; min-height: 400px; background: #2c87b9; display: flex; align-items:center;}
+.mid_banner h2				{ font-size: 40px; text-align: center; color: #fff; line-height: 56px;}
+.mid_banner .btn_green 		{ margin-top: 40px;}
+
+/*--- mid_banner backgrounds ---*/
+.mid_banner_one 			{ background: url(../img/bg_one.jpg); background-size: cover; background-position: top center; background-attachment: fixed;}
+.mid_banner_two 			{ background: url(../img/bg_two.jpg); background-size: cover; background-position: top center; background-attachment: fixed; padding: 60px 0;}
+.mid_banner_three 			{ background: url(../img/template_banner.jpg); background-size: cover; background-position: top center; background-attachment: fixed;}
+.mid_banner_four 			{ background: url(../img/bg_one.jpg); background-size: cover; background-position: top center; background-attachment: fixed;}
+.mid_banner_five 			{ background: url(../img/bg_two.jpg); background-size: cover; background-position: top center; background-attachment: fixed;}
+.mid_banner_six 			{ background: url(../img/bg_three.jpg); background-size: cover; background-position: top center; background-attachment: fixed;}
+
+/*--- mid_banner_two ---*/
+.mid_banner_two img 		{ margin-bottom: 20px; -webkit-box-shadow: 0 3px 10px 1px rgba(0,0,0,0.1); box-shadow: 0 3px 10px 1px rgba(0,0,0,0.1);}
+
+/*--- mid_banner_four ---*/
+.mid_banner_four p 			{ text-align: center; color: #fff; font-size: 18px; margin-top: 30px;}
+
+/*--- header ---*/
+.header 					{ width: 100%; height: 100px; background: #fff; display: flex; align-items:center; box-shadow: 0px 10px 50px -2px rgba(0, 0, 0, 0.14); -webkit-box-shadow: 0px 10px 50px -2px rgba(0, 0, 0, 0.14); -moz-box-shadow: 0px 10px 50px -2px rgba(0, 0, 0, 0.14);}
+.header .image_wrapper img	{ max-width: 100%; max-height: 80px; display: block; margin: 0 auto;}
+
+/*--- banner ---*/
+.banner     				{ width: 100%; height: 680px; background: url(../img/bg_one.jpg); background-size: cover; background-position: top center; background-attachment: fixed;}
+.banner .inner				{ height: 100%; }
+.banner .row 				{ height: 100%; display: flex; align-items:center;}
+.banner .flex_col 			{ align-self:flex-end;}
+.banner img 				{ max-height: 600px; display: block; margin: 0 auto;}
+.banner h1 					{ color: #fff; font-size: 60px; font-weight: 300;}
+.banner p 					{ color: #fff; font-size: 16px; margin-top: 20px; font-weight: 300; line-height: 30px;}
+
+/*--- webinar_start ---*/
+.webinar_start h2 			{ text-align: center; margin: 0 auto 40px;}
+.webinar_start p 			{ line-height: 26px; line-height: 30px; margin:0 auto 30px !important;}
+.webinar_start i 			{ font-family: FontAwesome; font-size: 32px; color: #069c60; padding: 0 10px 0 0;}
+.margin-class	{
+
+margin-bottom : 25px;
+
+}
+/*.webinar_start .gray p:before 	{ content: "\f00c"; font-family: FontAwesome; padding: 0 10px 0 0; font-size: 32px; color: #069c60;}*/
+.went_before 				{ text-align: center;}
+.webinar_start .gray h2 	{ margin-bottom: 10px;}
+.webinar_start img 			{ margin: 10px auto;}
+
+/*--- counter ---*/
+#countdown 					{ display: flex; justify-content: center; align-items: center;}
+.counter .first-count       { float: left; color: #fff; margin: 0 10px 10px;}
+.counter .first-count p     { display: block; }
+.counter .first-count p.days,
+.counter .first-count p.hours,
+.counter .first-count p.minutes,
+.counter .first-count p.seconds   { font-family: 'Open Sans Condensed', sans-serif; display: block; font-size: 50px; text-align: center; font-weight: 700; margin: 0 0 10px; padding: 30px 10px; }
+.counter .first-count p.timeRefDays,
+.counter .first-count p.timeRefHours,
+.counter .first-count p.timeRefMinutes,
+.counter .first-count p.timeRefSeconds { display: block; text-align: center; margin: 10px 0 0 0; font-size: 16px; }
+.counter .seperator      { position: relative; float: left; height: 35px; width: 35px; border-bottom: 1px solid #ff2a70; -moz-transform: rotate(-45deg) translateX(-10px) translateY(0px); -webkit-transform: rotate(-45deg) translateX(-10px) translateY(0px); -o-transform: rotate(-45deg) translateX(-10px) translateY(0px); -ms-transform: rotate(-45deg) translateX(-10px) translateY(0px); transform: rotate(-45deg) translateX(-10px) translateY(0px); margin: 0 10px 0 0; }
+.overlaytmr 			{ width: auto; }
+
+/*--- about ---*/
+.about p 					{ text-align: justify;}
+.about h2 					{ text-align: center; margin: 0 auto 40px;}
+.about img 					{ max-height: 400px; margin: 0 auto; display: block;}
+.about .btn_wrapper 		{ text-align: left; margin: 60px auto;}
+.about .name 				{ font-style: italic; font-size: 14px;}
+
+/*--- why ---*/
+.why h2 					{ text-align: center;}
+.why p:before 				{ content: "\f00c"; font-family: FontAwesome; padding: 0 10px 0 0; font-size: 32px; color: #069c60;}
+
+/*--- learn ---*/
+.learn img 					{ max-height: 500px; margin: 0 auto; display: block; }
+.learn h2 					{ font-weight: 700; font-size: 32px; margin-top: 150px; line-height: 42px; }
+
+/*--- learn_one ---*/
+.learn_one 					{ padding: 40px 0 100px;}
+
+/*--- learn_two ---*/
+.learn_two 					{ background: #f4f6f8; padding: 100px 0;}
+
+/*--- learn_three ---*/
+.learn_three 				{ padding: 60px 0;}
+
+/*--- learn_four ---*/
+.learn_four 				{ background: #f4f6f8; padding: 100px 0;}
+
+/*--- example ---*/
+.example h2 				{ text-align: center; }
+.example p 					{ text-align: center; margin: 20px auto 50px;}
+.example .awnser 			{ font-style: italic; font-size: 14px; margin-top: 50px; margin-bottom: 10px;}
+.example img 				{ display: block; margin: 0 auto 20px; -webkit-box-shadow: 0 3px 10px 1px rgba(0,0,0,0.1); box-shadow: 0 3px 10px 1px rgba(0,0,0,0.1);}
+
+/*--- testimonials ---*/
+.testimonials h2 			{ text-align: center; margin-bottom: 60px;}
+.testimonials p 			{ margin: 10px 0 20px;}
+.testimonials img 			{ display: block; margin: 0 auto; max-height: 200px; -webkit-border-radius: 2px; border-radius: 2px; }
+.testimonials .row 			{ display: flex; align-items:center;}
+.testimonials_name 			{ font-style: italic; font-size: 14px;}
+
+/*--- FAQ ---*/
+.faq h2						{ text-align: center; margin-bottom: 60px;}
+.question_wrapper 			{ font-weight: 700;}
+.awnser_wrapper 			{ font-style: italic; font-weight: 300; margin-bottom: 30px;}
+
+/*--- footer ---*/
+.footer						{ background: #f4f6f8; padding: 60px 0;}
+.footer h2 					{ text-align: center; margin-bottom: 40px;}
+
+
+/*--- pop_up ---*/
+
+.SFPpopupOpen 							{ position: absolute; width: 90%; max-width: 800px; left: 50%;  padding: 0 25px; top: 200px; z-index: 11; background: #fff; -webkit-box-shadow: 0 5px 10px 5px rgba(0,0,0,0.4); box-shadow: 0 5px 10px 5px rgba(0,0,0,0.4); -moz-transform: translate(-50%,0); -webkit-transform: translate(-50%,0); -o-transform: translate(-50%,0); -ms-transform: translate(-50%,0); transform: translate(-50%,0);}
+.side_border 							{ position: absolute; width: 7px; height: 100%; left: 0; top: 0; background: #3bca6b;}
+#labonepopup 							{ position: relative !important;}
+#labonepopup .pop_up_h3					{ font-size: 22px; font-weight: 600; color: #333; text-align: center; padding-left: 20px; padding-right: 20px; text-transform: uppercase; text-decoration: none; font-style: normal; padding: 35px 0 0 0; margin: 0;}
+.labonepopup_h 							{ max-height: 100% !important;}
+.labonepopup_h form 					{ position: relative; margin: 0 auto;}
+.labonepopup_h p 	 					{ font-size: 16px; margin-top: 20px; font-weight: 600; color: #666;}
+.labonepopup_h input[type="text"] 		{ height: 50px; margin: 10px 0; padding: 10px; background-color: #f9f8f4; font-size: 13px; font-weight: 500; color: #777; border: none; -webkit-box-shadow:inset 0px 4px 7px -1px rgba(0,0,0,0.1); box-shadow:inset 0px 4px 7px -1px rgba(0,0,0,0.1); -webkit-border-radius: 0; border-radius: 0;}
+.labonepopup_h input[type="email"] 		{ height: 50px; margin: 10px 0; padding: 10px; background-color: #f9f8f4; font-size: 13px; font-weight: 500; color: #777; border: none; -webkit-box-shadow:inset 0px 4px 7px -1px rgba(0,0,0,0.1); box-shadow:inset 0px 4px 7px -1px rgba(0,0,0,0.1); -webkit-border-radius: 0; border-radius: 0;}
+.labonepopup_h input[type="submit"] 	{ height: 50px; width: 100%; margin: 40px 0;  background-color: #3bca6b ; color: #fff; -webkit-border-radius: 0; border-radius: 0;}
+.labonepopup_h a:hover					{ color: #3bca6b;}	
+
+.close_circle							{ position: absolute; right: 0; top: 0; z-index: 20; padding-right: 25px; padding-top: 15px;}
+.close_circle a 						{ line-height: 0; font-size: 30px; font-weight: 600; color: #d5d5d5; }
+.close_circle a:hover 					{ color: #3bca6b;}
+
+.progress 								{ width: 85%; margin: 0 auto; margin-top: 20px; height: 20px;}
+.progress-bar 							{ font-size: 10px !important; line-height: 16px !important; background-color: #dedddd;}
+.progress-bar-success 					{ background-color: #3bca6b !important; background-image: none; background: #3bca6b !important; }
+.progress_p 							{ margin-top: 15px; text-align: center; }
+.progress_divider 						{ width: 100%; height: 1px; background-color: #ebebea; margin: 10px auto 0;}
+
+
+
+@media(max-width: 767px){
+	.webinar_template .btn_green 	{ font-size: 14px;}
+	.webinar_template .inner h1	{ font-size: 50px; text-align: center; }
+	.webinar_template .inner h2 	{ font-size: 32px;}
+	
+	.banner 				{ min-height: 680px; height: auto;}
+	.banner .row 			{ display: block;}
+	.banner .inner p  				{ text-align: center;}
+	.mid_banner h2 			{ font-size: 28px; line-height: 42px; }
+	.learn h2 				{ margin-top: 50px; text-align: center; margin-bottom: 30px; font-size: 22px; line-height: 34px;}
+	.about .btn_wrapper 	{ text-align: center;}
+	.testimonials .row 		{ display: block;}
+	.learn_one 				{ padding: 0;}
+	.learn_two				{ padding: 0 0 50px;}
+	.learn_three 			{ padding: 0;}
+	.learn_four				{ padding: 0 0 50px;}
+}
+
+
+
+
+
+
